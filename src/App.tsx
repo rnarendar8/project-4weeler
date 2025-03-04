@@ -1,18 +1,18 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import HomePage from "./Components/HomePage";
-import Login from "./Components/Login";
-import Vahicle from "./Components/Vahicle";
+import "../src/App.css";
 import Admin from "./Components/Admin";
 import Catalog from "./Components/Catalog";
-import Payment from "./Components/Payment";
 import Contact from "./Components/Contact";
 import DashBord from "./Components/DashBord";
+import HomePage from "./Components/HomePage";
+import { default as Login, default as LoginPage } from "./Components/Login";
 import OrderConformation from "./Components/OrderConformation";
-import TestDrive from "./Components/TestDrive";
-import "../src/App.css"
-import Submitted from "./Ecomponents/Submitted";
-import LoginPage from "./Components/Login";
+import Payment from "./Components/Payment";
 import SingIn from "./Components/SingIn";
+import TestDrive from "./Components/TestDrive";
+import Vahicle from "./Components/Vahicle";
+import ProfilePage from "./Components/profile";
+import Submitted from "./Ecomponents/Submitted";
 
 
 export default function App() {
@@ -22,7 +22,7 @@ export default function App() {
         <Routes>
         <Route path="/" element={<LoginPage/>} />
         <Route path="/sign" element={<SingIn/>} />
-
+        <Route path="/profile" element={<ProfilePage/>} />
           <Route path="/homepage" element={<HomePage/>} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Vahicle" element={<Vahicle/>} />

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 //import VehicleFilterSidebar from "./VehicleFilterSidebar";
 import "../Css/Catlog.css";
 import NavBar from "./NavBar";

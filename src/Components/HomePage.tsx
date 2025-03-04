@@ -1,8 +1,7 @@
-import { useState } from "react";
-import NavBar from "./NavBar";
-import CarSlider from "../Ecomponents/CarSlider";
 import { Link } from "react-router-dom";
-import "../Css/MainPage.css"; 
+import "../Css/MainPage.css";
+import CarSlider from "../Ecomponents/CarSlider";
+import NavBar from "./NavBar";
 
 export default function HomePage() {
     
@@ -63,9 +62,7 @@ export default function HomePage() {
                     </Link>
                 </section>
             </div>
-            <div>
-                <img src=""/>;
-            </div>
+           
         </div>
         </>
     );
